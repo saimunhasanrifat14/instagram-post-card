@@ -1,24 +1,93 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Instagram Post Card</title>
-    <link rel="stylesheet" href="css/style.css">
-</head>
-<body>
+    <link rel="stylesheet" href="css/style.css" />
+    <!-- icons -->
+    <link
+      rel="stylesheet"
+      data-purpose="Layout StyleSheet"
+      title="Web Awesome"
+      href="/css/app-wa-69936a1b279f3a9001400679f162b44b.css?vsn=d"
+    />
+    <link
+      rel="stylesheet"
+      href="https://site-assets.fontawesome.com/releases/v6.7.2/css/all.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://site-assets.fontawesome.com/releases/v6.7.2/css/sharp-duotone-thin.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://site-assets.fontawesome.com/releases/v6.7.2/css/sharp-duotone-solid.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://site-assets.fontawesome.com/releases/v6.7.2/css/sharp-duotone-regular.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://site-assets.fontawesome.com/releases/v6.7.2/css/sharp-duotone-light.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://site-assets.fontawesome.com/releases/v6.7.2/css/sharp-thin.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://site-assets.fontawesome.com/releases/v6.7.2/css/sharp-solid.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://site-assets.fontawesome.com/releases/v6.7.2/css/sharp-regular.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://site-assets.fontawesome.com/releases/v6.7.2/css/sharp-light.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://site-assets.fontawesome.com/releases/v6.7.2/css/duotone-thin.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://site-assets.fontawesome.com/releases/v6.7.2/css/duotone-regular.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://site-assets.fontawesome.com/releases/v6.7.2/css/duotone-light.css"
+    />
+
+    <!-- icons -->
+  </head>
+  <body>
     <div class="card">
-        <div class="header">
-            <img src="https://via.placeholder.com/30" alt="Profile">
-            <span class="username">user_name</span>
-            <span class="follow">FOLLOW</span>
+      <div class="header">
+        <div class="headerProfile">
+          <i class="fa-solid fa-user"></i>
+          <span class="username">user_name</span>
         </div>
-        <div class="image-container"></div>
-        <div class="actions">
-            <span>&#9825; &#128172; &#9993;</span>
-            <span>&#x1F5A4;</span>
+        <div class="headerFollow">
+          <span class="follow">FOLLOW</span>
+          <i class="fa-solid fa-ellipsis"></i>
         </div>
-        <div class="likes">362 likes</div>
+      </div>
+      <div class="image-container">
+        <img src="images/car.jpeg" alt="" />
+      </div>
+      <div class="actions">
+        <div class="actionIcons">
+            <i class="fa-regular fa-heart like"></i>
+            <i class="fa-regular fa-comment comment"></i>
+            <i class="fa-regular fa-paper-plane share"></i>
+        </div>
+        <i class="fa-regular fa-bookmark"></i>
+      </div>
+      <div class="likes"><span>362</span> likes</div>
     </div>
-</body>
+    <script src="js/mian.js"></script>
+  </body>
 </html>
